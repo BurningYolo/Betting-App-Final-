@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_gradient"
+
+    tools:context=".Adminpanel_main">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:gravity="center_horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="ADMIN PANEL"
+            android:textSize="30dp"
+            ></TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:text="Email"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            ></TextView>
+            <EditText
+                android:layout_width="wrap_content"
+                android:id="@+id/adminemail"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_height="wrap_content"
+                android:hint="email here"></EditText>
+
+
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:id="@+id/buttondeleteuser"
+            android:text="DELETE USER"
+            ></Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:id="@+id/buttonsendemail"
+            android:text="SEND EMAIL"
+            ></Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:id="@+id/buttondeleteall"
+            android:textColor="@color/white"
+            android:text="Clear all betting info"
+            android:backgroundTint="@color/black"
+            ></Button>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="10dp"
+
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team1"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                ></TextView>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/white"
+                android:id="@+id/generateteam1"
+                android:textColor="@color/white"
+                android:hint="Team1 here"></EditText>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:text="Team2"
+                android:textSize="30dp"
+                ></TextView>
+            <EditText
+                android:layout_width="wrap_content"
+                android:id="@+id/generateteam2"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Team2 here"></EditText>
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/buttongenerate"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:text="Generate Result "
+            android:backgroundTint="@color/black"
+            ></Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tobetgenerationpage"
+            android:text="To Bet generation Page "
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            ></Button>
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

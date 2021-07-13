@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_gradient"
+    tools:context=".Adminpanel">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="70dp"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ADMIN PANEL  "
+                android:textStyle="bold"
+
+
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+
+                ></TextView>
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ADD BET"
+
+                android:layout_margin="10dp"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                ></TextView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TEAM 1:"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                ></TextView>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="team1 here"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:id="@+id/team1"
+                android:layout_margin="10dp"
+                ></EditText>
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+
+                android:text="TEAM 2:"
+                android:layout_margin="10dp"
+
+                ></TextView>
+            <EditText
+                android:layout_width="wrap_content"
+                android:textColorHint="@color/white"
+                android:layout_height="wrap_content"
+                android:hint="Team2 here"
+                android:layout_margin="10dp"
+                android:textColor="@color/white"
+                android:id="@+id/team2"
+                ></EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TEAM1 ODDS: "
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+
+                ></TextView>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/white"
+                android:inputType="numberDecimal"
+                android:hint="team1 odds here"
+                android:layout_margin="10dp"
+                android:textColor="@color/white"
+                android:id="@+id/team1odds"
+                ></EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TEAM2 ODDS: "
+
+                android:layout_margin="10dp"
+                android:textColor="@color/white"
+                ></TextView>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="team2 odds here"
+                android:layout_margin="10dp"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:inputType="numberDecimal"
+                android:id="@+id/team2odds"
+                ></EditText>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ADD BETTING INFO "
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/white"
+                android:id="@+id/addbettinginfo"
+                ></Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" DISPLAY ALL USER INFO  "
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/white"
+                android:id="@+id/displayuserdata"
+                ></Button>
+
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:text="back"
+            android:id="@+id/adminback"
+            ></Button>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
